@@ -1,3 +1,4 @@
+// Function for checking palindrom word
 function palindromCheck(word) {
   let lowWord = word.toLowerCase();
   let reverseWord = lowWord.split("").reverse().join("");
