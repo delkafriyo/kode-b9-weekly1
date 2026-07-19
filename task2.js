@@ -1,9 +1,4 @@
-/* 
-1. buat fungsi getMultiplicationTable
-2. Fungsi menerima paramater berupa jumlah tabel
-3. Buat perulangan
-*/
-
+// Function for MultiplicationTable
 function getMultiplicationTable(num) {
   for (let i = 1; i <= num; i++) {
     let lineNum = "";
