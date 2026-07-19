@@ -1,7 +1,9 @@
 function palindromCheck(word) {
   let lowWord = word.toLowerCase();
   let reverseWord = lowWord.split("").reverse().join("");
-  return word === reverseWord;
+  return word === reverseWord
+    ? console.log(`"${word}" is palindrom`)
+    : console.log(`"${word}" is not palindrom`);
 }
 
-console.log(palindromCheck("kasur ini rusak"));
+palindromCheck("kasur ini rusak");
